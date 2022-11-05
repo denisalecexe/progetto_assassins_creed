@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(128, 121, 108);
+}
+
+.mini-logo {
+  float: left;
+  width: 55px;
+  border-radius: 10%;
+  filter: opacity(0.2);
+}
+
+.mini-logo:hover {
+  filter: opacity(0.8);
+  transition: 3s;
+}
+
+button {
+  font-size: 33px;
+  color: beige;
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgba(27, 67, 168, 0.904);
+  filter: blur(2px) opacity(0.2);
+}
+
+button:hover {
+  filter: blur(0);
+  transition: 5s;
+}
+
+.assassin-logo {
+  float: right;
+  width: 350px;
+  margin: 0 25px;
+}
+
+.foto-assassini {
+  float: left;
+  filter: blur(5px) grayscale(7);
+  width: 350px;
+  margin: 30px;
+}
+
+.foto-assassini:hover {
+  filter: blur(0) grayscale(0);
+  transition: 3s;
+}
+
+.titolo-grande {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: crimson;
+}
+
+.titolo-medio {
+  font-size: 25px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(136, 7, 7);
+}
+
+.testo,
+.testo-assassini,
+.testo-fondatori,
+.lista {
+  font-family:cursive;
+}
+
+.testo {
+  color:rgb(0, 0, 0);
+}
+
+.testo-fondatori {
+  color:rgb(172, 0, 92) ;
+  font-size: 20px;
+}
+
+.testo-assassini {
+  color:rgb(2, 0, 107);
+}
+
+.lista {
+  color: rgb(255, 0, 119);
+}
+
+.scelta,
+.commenti,
+.iscriviti,
+.gioco-migliore {
+  font-size: 50px;
+  color: rgb(0, 183, 255);
+}
+
+
+.logo-creed-uno,
+.logo-creed-due,
+.logo-creed-tre,
+.logo-creed-quattro,
+.logo-creed-cinque,
+.logo-creed-sei,
+.logo-creed-sette,
+.logo-creed-otto {
+  width: 150px;
+  margin: 15px;
+}
+
+.testo-di-scelta {
+  font-size: 20px;
+}
