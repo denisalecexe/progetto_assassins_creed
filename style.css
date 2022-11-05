@@ -106,3 +106,8 @@ button:hover {
 .testo-di-scelta {
   font-size: 20px;
 }
+
+hr {
+  border: black 2px solid;
+}
+
